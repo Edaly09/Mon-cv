@@ -86,6 +86,15 @@ img{
 strong{
     font-weight: bold;
 }
+.butt{
+    background-color: blue;
+    border-radius: 10px;
+}
+.butt a{
+    text-decoration: none;
+    color: white;
+
+}
 @media (max-width:768px) {
     .contenair{
         display: flex;
