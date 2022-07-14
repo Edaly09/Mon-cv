@@ -10,6 +10,7 @@ header{
     text-align: center;
     text-transform: uppercase;
     align-content: space-between;
+    width: 100%;
 }
 header h1{
     font-weight: bold;
@@ -37,6 +38,7 @@ footer{
     background-color: azure;
     padding: 30px;
     margin-bottom: 50px;
+    width: 100%;
     
 }
 aside{
@@ -83,4 +85,10 @@ img{
 }
 strong{
     font-weight: bold;
+}
+@media (max-width:768px) {
+    .contenair{
+        display: flex;
+        flex-direction: column;
+    }
 }
